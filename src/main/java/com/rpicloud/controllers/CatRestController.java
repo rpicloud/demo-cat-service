@@ -22,6 +22,7 @@ public class CatRestController {
         col.add(new Cat("Mr. Meow", "http://25.media.tumblr.com/tumblr_lzrltrAZFC1rncb5fo1_400.gif", "2", "Meeow!"));
         col.add(new Cat("Mr. Meow1", "http://25.media.tumblr.com/tumblr_m3exc4YOR01r03eaxo1_400.gif", "2", "Meeow!"));
         col.add(new Cat("Mr. Meow2", "http://27.media.tumblr.com/tumblr_llngvqDxGp1qaw6efo1_500.gif", "2", "Meeow!"));
+        col.add(new Cat("Mrs Daisy", "http://www.catgifpage.com/gifs/310.gif", "4", "Meeow!"));
         return new ResponseEntity<>(col, HttpStatus.OK);
     }
 }
