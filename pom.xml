@@ -63,7 +63,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-                    <finalName>app</finalName>
+                    <finalName>deployable-application</finalName>
                 </configuration>
 			</plugin>
 		</plugins>
