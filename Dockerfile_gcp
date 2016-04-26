@@ -1,8 +1,8 @@
 # Using rpi image with java 8
-FROM hypriot/rpi-java
+FROM java:8
 
 # Build number hard-coded so far
 COPY target/deployable-application.jar /data/
 
 EXPOSE 9000
-CMD ["java", "-jar", "deployable-application.jar"]
+CMD ["java", "-jar", "/data/deployable-application.jar"]
