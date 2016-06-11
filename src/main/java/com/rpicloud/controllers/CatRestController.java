@@ -25,4 +25,9 @@ public class CatRestController {
         //col.add(new Cat("Mrs Daisy", "http://www.catgifpage.com/gifs/310.gif", "4", "Meeow!"));
         return new ResponseEntity<>(col, HttpStatus.OK);
     }
+
+    @RequestMapping("/cats/version")
+    public ResponseEntity<String> version(){
+       return new ResponseEntity<>("v1", HttpStatus.OK);
+    }
 }
